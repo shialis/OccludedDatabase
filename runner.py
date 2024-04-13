@@ -8,14 +8,14 @@ from rembg import remove
 
 def main():
     # Get absolute paths
-    base_path = 'C:/Uni3rd/thirdY/finalDB'
+    base_path = './'
     
     # Execute each file in sequence
-    execute_file(os.path.join(base_path, 'seImages/selecting.py'))
+    execute_file(os.path.join(base_path, 'image_selector.py'))
 
     print("Starting Removing Backgrounds process")
-    execute_file(os.path.join(base_path, 'removesBG/main.py'))
-    execute_file(os.path.join(base_path, 'combineImages/combImagesFinal.py'))
+    execute_file(os.path.join(base_path, 'background_remover.py'))
+    execute_file(os.path.join(base_path, 'image_combinator.py'))
 
 def execute_file(file_path):
     with open(file_path, 'r') as file:
