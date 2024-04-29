@@ -1,6 +1,6 @@
 # Custom Occluded Object Dataset Generator
 
-This project aims to create a custom dataset for occluded object detection by mixing multiple objects from images and combining them into a single image or background. The process involves selecting objects from various images, removing their backgrounds, and then merging them onto a white canvas or background.
+This project aims to create a custom dataset for occluded object detection by mixing multiple objects from images and combining them into a single image or background. The process involves selecting objects from various images, removing their backgrounds, and then merging them onto a white canvas or background. Github repository can be found [here](https://github.com/shialis/OccludedDatabase.git)
 
 ## Dataset Creation Process
 
